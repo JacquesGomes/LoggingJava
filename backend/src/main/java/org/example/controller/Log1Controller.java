@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Controller {
+public class Log1Controller {
 
 
     //Simple logging facade for Java
     private static final Logger log =
-            LoggerFactory.getLogger(Controller.class);
+            LoggerFactory.getLogger(Log1Controller.class);
 
     @Autowired
     protected Environment environment = null;
